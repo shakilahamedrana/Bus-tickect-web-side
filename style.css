@@ -1,0 +1,340 @@
+
+
+
+
+.icones{
+    box-sizing: border-box;
+    border: 1px solid rgba(29, 209, 0, 0.4);
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    padding: 6px 20px;
+    background: rgba(29, 209, 0, 0.1);
+}
+
+.icones:hover{
+    background-color: rgba(59, 209, 0, 0.3);
+}
+
+.icones a{
+    color: rgb(29, 209, 0);
+}
+
+.madile-point{
+    text-align: center;
+}
+
+.madile-point h1{
+    color: aliceblue;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.madile-point span{
+    color: rgb(29, 209, 0);
+    font-size: 64px;
+    font-weight: 800;
+}
+.madile-point p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 32px;
+}
+.madile-point a{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    padding: 10px 20px;
+    background-color: rgb(29, 209, 0);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.madile-point a:hover{
+    background: #f9003e64;
+    color: black;
+}
+
+.bunas-section{
+    display: flex;
+    gap: 24px;
+    margin-top: -60px;
+    margin-left: 150px;
+    text-align: center;
+    position: absolute;
+}
+.ticket-position{
+    background-color: whitesmoke;
+    display: flex;
+    
+    border-radius: 10px;
+    padding: 20px 37px;
+    gap: 10px;
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(29, 209, 0);
+}
+
+.ticket-position img{
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.ticket-position h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.ticket-potit{
+    display: flex;
+    gap: 24px;
+    background-color: #ffbf0f;
+    border-radius: 24px;
+    height: 220px;
+    width: 573px;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+.ticket-potit h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+
+.ticket-potit h2{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.ticket-potit-1{
+    display: flex;
+    gap: 24px;
+    border-radius: 24px;
+background: rgb(247, 140, 156);
+    height: 220px;
+    width: 573px;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+.ticket-potit-1 h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+
+.ticket-potit-1 h2{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+
+
+.simple-but {
+    background: rgb(255, 255, 255);;
+    margin-top: 62px;
+    height: 40px;
+    width: 140px;
+    margin-left: 500px;
+    border-radius: 10px;
+    border:1px solid rgb(29, 209, 0);
+}
+
+.simple-but button{
+    padding: 20px;
+    margin-top: -12px;
+}
+
+
+
+
+.border-section{
+    box-sizing: border-box;
+    border-top: 2px solid rgb(29, 209, 0);
+    margin-top: 120px;
+    width: 1460PX;
+    margin-left: 10px;
+    height: 2208px;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(29, 209, 0);
+    border-radius: 88px 88px 0px 0px;
+    background: rgb(247, 248, 248);
+}
+
+.main-ticket{
+    background-color: white;
+    border-radius: 24px;
+    width: 1170px;
+    height: 418px;
+    padding: 30px;
+    display: flex;
+}
+
+.frist-text{
+    width: 808px;
+    height: 350px;
+}
+
+.second-text{
+    height: 418px;
+    width: 80px;
+    margin-top: -30px;
+}
+
+.third-text{
+    height: 155px;
+    width: 133px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.gra-round{
+    
+    font-weight: 700;
+    height: 40px;
+    margin-left: 35px;
+}
+
+.seat-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.totle-seats{
+    display: flex;
+    gap: 15px;
+    background-color: rgba(29, 209, 0, 0.15);;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.trand{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(29, 209, 0);
+}
+
+.coach{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 12px;
+}
+
+.round-text-2{
+    height: 250px;
+    width: 808px;
+    border-radius: 24px;
+    background-color:  rgb(247, 248, 248);
+    padding: 32px;
+}
+
+.round-text-3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: rgb(3, 7, 18);
+}
+
+.round-text-4{
+    display: flex;
+    justify-content: space-around;
+}
+.rana{
+    background: rgba(3, 7, 18, 0.1);
+    padding: 12px 30px;
+    font-size: 18px;
+    margin-top: 48px;
+    border-radius: 10px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.bunas-section-2 h1{
+    color: rgb(29, 209, 0);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.ticket-from{
+    background-color: rgb(247, 248, 248);
+    width: 808px;
+    height: 258px;
+}
+
+
+.seat-continner{
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    width: 1170px;
+    height: 1056px;
+    margin: 56px auto;
+    display: flex;
+    
+}
+
+.sit-section{
+    height: 1056px;
+    width: 650px;
+    margin-left: 15px;
+    background-color: antiquewhite;
+    padding: 32px;
+}
+
+.border-continner{
+    position: absolute;
+    width: 992px;
+    height: 0;
+    margin-top: 530px;
+    margin-left: 176px;
+    transform: rotate(90.00deg);
+    border: 2px dashed rgba(3, 7, 18, 0.3);
+}
+
+.discount-section{
+    height: 1056px;
+    width: 480px;
+    background-color:chartreuse;
+    margin-left: 15px;
+    padding: 32px;
+}
+
+.heading{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.seclct-sit{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+.drybar-section{
+    margin-top: 16px;
+    margin-left: 480px;
+}
+
+.kbd{
+    margin-left: 24px;
+    padding: 15px 40px;
+}
+
+.sit-number{
+    display: flex;
+    justify-content: space-between;
+}
+
+gap-6 item-center text-center -mt-12 ml-60
