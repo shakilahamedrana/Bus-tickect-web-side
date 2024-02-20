@@ -213,6 +213,11 @@ background: rgb(247, 140, 156);
     border-radius: 10px;
 }
 
+.totle-seats h1{
+    color: rgb(29, 209, 0);
+    
+}
+
 .trand{
     font-size: 18px;
     font-weight: 500;
@@ -285,7 +290,6 @@ background: rgb(247, 140, 156);
     height: 1056px;
     width: 650px;
     margin-left: 15px;
-    background-color: antiquewhite;
     padding: 32px;
 }
 
@@ -302,7 +306,6 @@ background: rgb(247, 140, 156);
 .discount-section{
     height: 1056px;
     width: 480px;
-    background-color:chartreuse;
     margin-left: 15px;
     padding: 32px;
 }
@@ -327,14 +330,138 @@ background: rgb(247, 140, 156);
     margin-left: 480px;
 }
 
-.kbd{
+.add-btn{
     margin-left: 24px;
     padding: 15px 40px;
+    background-color: rgb(247, 248, 248);
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
 }
-
+.add-driber{
+    margin-left: 472px;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
 .sit-number{
     display: flex;
     justify-content: space-between;
 }
 
+.tickect-selectet{
+    width: 433px;
+    height: 350px;
+    border-radius: 12px;
+    background: rgb(247, 248, 248);
+}
+.table {
+    margin-top: 32px;
+}
+.totle-price-sectoin{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.table th span{
+    background-color: red;
+}
+.border-sedo{
+    position: absolute;
+    width: 340px;
+    height: 0;
+    margin-left: 50px;
+    margin-top: px;
+    border: 1px dashed rgba(3, 7, 18, 0.2);
+}
+
+.border-sedo-2{
+    position: absolute;
+    width: 340px;
+    height: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 1px solid rgba(3, 7, 18, 0.2);
+}
+
+.totle-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    color: black;
+}
+
+#but-section{
+    width: 369px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.buton-section{
+    display: flex;
+    padding: 20px;
+    margin-top: -20px;
+    margin-right: 15px;
+    position: absolute;
+}
+
+.buton-section button{
+    position: absolute;
+    border-radius: 8px;
+    background: rgb(29, 209, 0);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 18px;
+    margin-top: 4px;
+    margin-left: 299px;
+}
+
+.totle-discount-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    color: black;
+}
+
+
+.input-section{
+    margin-top: 24px;
+}
+
+.next-button{
+    margin-top: 34px;
+    background-color: rgb(29, 209, 0);
+}
+
+.oer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+.oer a{
+    border-bottom: 2px solid rgb(7, 7, 7);
+}
+
+
+.futer-section{
+    
+}
 gap-6 item-center text-center -mt-12 ml-60
