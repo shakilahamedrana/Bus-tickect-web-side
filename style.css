@@ -12,6 +12,14 @@
     background: rgba(29, 209, 0, 0.1);
 }
 
+.name-price-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .icones:hover{
     background-color: rgba(59, 209, 0, 0.3);
 }
@@ -157,7 +165,7 @@ background: rgb(247, 140, 156);
     margin-top: 120px;
     width: 1460PX;
     margin-left: 10px;
-    height: 2208px;
+    height: 1888px;
     box-sizing: border-box;
     border-top: 2px solid rgb(29, 209, 0);
     border-radius: 88px 88px 0px 0px;
@@ -387,15 +395,15 @@ background: rgb(247, 140, 156);
     width: 340px;
     height: 0;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     border: 1px solid rgba(3, 7, 18, 0.2);
 }
 
 .totle-price{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    padding: 50px;
+    margin-top: 10px;
+    padding: 20px 50px;
     font-size: 18px;
     font-weight: 600;
     line-height: 19px;
@@ -411,7 +419,7 @@ background: rgb(247, 140, 156);
     padding: 10px;
 }
 
-.buton-section{
+.butn-section{
     display: flex;
     padding: 20px;
     margin-top: -20px;
@@ -419,7 +427,7 @@ background: rgb(247, 140, 156);
     position: absolute;
 }
 
-.buton-section button{
+.butn-section button{
     position: absolute;
     border-radius: 8px;
     background: rgb(29, 209, 0);
@@ -462,6 +470,20 @@ background: rgb(247, 140, 156);
 
 
 .futer-section{
+    height: 457px;
+    width:1470px;
+    background-color: black;
+    padding: 120px;
+}
+.content-section{
+}
+.p-ticket-text{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
     
+}
+.google{
+    display: flex;
 }
 gap-6 item-center text-center -mt-12 ml-60

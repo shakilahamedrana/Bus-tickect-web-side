@@ -188,7 +188,7 @@
                         </div>
                         <div class="third-text">
                             <img class="ml-9" src="images/fare.png" alt="">
-                            <h1 class="text-2xl font-bold ml-4 mt-4"> <span>550</span> Taka</h1>
+                            <h1 class="text-2xl font-bold ml-4 mt-4"><span>550</span> Taka</h1>
                             <p class="gra-round">Per Seat</p>
                         </div>
                     </div>
@@ -355,37 +355,22 @@
                             <div class="mt-12">
                                 <div class="overflow-x-auto ml-6">
                                     <table class="table">
-                                        <!-- head -->
                                         <div class="totle-price-sectoin">
-                                                <div class="name">Name 
-                                                    <span class="price-color" id="cart">0</span>
-                                                </div>
-                                                
-
-                                                <div class="price">Price</div>
-                                                <div class="category">Category</div>
+                                            <div class="name">Seat 
+                                                <span class="price-color" id="cart">0</span>
                                             </div>
-                                        
-                                        <!--
-                                            <tbody>
-                                            row 3 
-                                        <tr>
-                                            <td>Brice Swyre</td>
-                                            <td>Tax Accountant</td>
-                                            <td>Red</td>
-                                        </tr>
-                                    </tbody>
-                                        -->
-                                    </table>
+                                            <div class="price">Category
+
+                                            </div>
+                                            <div class="category">Price
+
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
-                            <div class="border-sedo">
-
-                            </div>
-
-                            <div class="border-sedo-2">
-
-                            </div>
+                            <div class="border-sedo"></div>
+                            <div id="name-price-catagory-continner"></div>
+                            <div class="border-sedo-2"></div>
 
                             <div class="totle-price">
                                 <h1>Total Price</h1>
@@ -393,11 +378,12 @@
                             </div>
 
                             
-                            <div class="buton-section">
-                                <input id="but-section" type="text" placeholder="Have any copipon?"/>
+                            <div class="butn-section">
+                                <input id="but-section" type="text" placeholder="HaveAnyCopupon"/>
 
                                 <button
-                                onclick="updateGrandTotal('click from apply')"
+                                onclick="updeteCoupne20('click from apply')"
+                                onclick="updeteNew15('click from apply')"
                                 id="apply-btn"
                                 class="apply-btn"
                                 >
@@ -407,7 +393,7 @@
 
                             <div class="totle-discount-price">
                                 <h1>Total Price</h1>
-                                <h3 class="padding">BDT: <span id="total-cost">0</span></h3>
+                                <h3 class="padding">BDT: <span id="total-discount">0</span></h3>
                             </div>
                         </div>
 
@@ -441,11 +427,30 @@
         </main>
 
 
-        <footer>
-            <section class="futer-section">
-
+        <footer class=futer-section">
+            <section class="content-section">
+                <div> 
+                    <div class="p-ticket-text">
+                        <div>
+                            <h1>P-Ticket</h1>
+                            <p>P-Ticket is a digital platform to your daily commuting better.</p>
+                        </div>
+                        <div>
+                            <h1>Download our app</h1>
+                            <div class="google">
+                                <img src="images/playstore.png" alt="">
+                                <div>
+                                    <h1>GETITON</h1>
+                                    <H2>Google Play</H2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
-        </footer>
+        <footer>
+
+        <script src="./celculet.js"></script>
 </body>
 </html>
 
