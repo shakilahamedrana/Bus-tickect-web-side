@@ -12,6 +12,12 @@
     background: rgba(29, 209, 0, 0.1);
 }
 
+.bagroungd-imagte{
+    background-image: url("images/banner.png");
+    width: 1171px;
+    height: 550px;
+}
+
 .name-price-section{
     display: flex;
     justify-content: space-around;
