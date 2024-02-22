@@ -246,7 +246,11 @@ background: rgb(247, 140, 156);
     background-color:  rgb(247, 248, 248);
     padding: 32px;
 }
-
+#cart{
+    background-color: rgb(50, 223, 50);
+    padding: 0px 2px;
+    border-radius: 50px;
+}
 .round-text-3{
     display: flex;
     justify-content: space-between;
@@ -468,22 +472,39 @@ background: rgb(247, 140, 156);
     border-bottom: 2px solid rgb(7, 7, 7);
 }
 
-
-.futer-section{
-    height: 457px;
-    width:1470px;
-    background-color: black;
-    padding: 120px;
+.successes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
-.content-section{
-}
-.p-ticket-text{
-    display: flex;
-    justify-content: space-between;
-    color: #ffffff;
+.modal-box{
+    height: 480px;
+    width: 550px;
+    text-align: center;
+    position: relative;
+    display: flex colum;
     
 }
-.google{
-    display: flex;
+.modal-box button{
+    margin-right: 50px;
 }
-gap-6 item-center text-center -mt-12 ml-60
+
+.modal-box img{
+    margin-left: 170px;
+}
+.btn{
+    background-color: rgb(29, 209, 0);
+}
+.modal-action button{
+    background-color: rgb(29, 209, 0);
+    padding: 16px 80px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
